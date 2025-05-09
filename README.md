@@ -355,7 +355,7 @@ SOFTWARE.
 ## Acknowledgments
 
 **Key Resources**  
-**------------------------**
+**-------------------------**
 
 (1) University of Texas, *Parker Model of Solar Wind* (Fitzpatrick 2016) https://farside.ph.utexas.edu/teaching/plasma/Plasma/node90.html 
 
