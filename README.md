@@ -189,9 +189,9 @@ When executing this project, there are five key input parameters that you can ma
 
     This file path describes the location where our output graph, depicting solar wind as a function of distance from the Sun, is written. Both the location of the .png and the name of the .png can be manipulated via this input parameter. 
 
-**(5) Parker Spiral Output FilePath:** T
+**(5) Parker Spiral Output FilePath:** 
 
-    his file path describes the location where our output graph, depicting the angular location of the Sun's magnetic field as a function of distance, is written. Both the location of the .png and the name of the .png can be manipulated via this input parameter.
+    This file path describes the location where our output graph, depicting the angular location of the Sun's magnetic field as a function of distance, is written. Both the location of the .png and the name of the .png can be manipulated via this input parameter.
 
 An image of the location of these input parameters and where they can be changed is provided below: 
 
