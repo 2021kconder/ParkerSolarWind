@@ -65,7 +65,7 @@ If you do not meet any of these system requirements or have the necessary packag
 
 
 **CLI Installation Steps:**  
-**---------------------------**
+**-------------------------------------**
 
 **(1)** Navigate to the location on your local system where you would like to copy the ParkerSolarWind repository. 
 
@@ -75,11 +75,11 @@ If you do not meet any of these system requirements or have the necessary packag
 
 **(3)** If Git is not installed, please use the link in the *System Installation* subsection above to do so. If it is installed, run the following command:
 
->$ git clone https://github.com/kconder/PHYS4840/ParkerSolarWind.git
+>$ git clone https://github.com/2021kconder/ParkerSolarWind.git
 
 
 **Now, that the program files have been copied onto your local device, we need to change our environment variables:**
-**---------------------------------------------------------------------------------------------**
+**----------------------------------------------------------------------------------------------------------------------------------**
 
 **(1)** Navigate into the newly created structure. 
 
@@ -110,7 +110,7 @@ These two files are the files needed to run the program.
 ![Executables](readme_figures/executables.png)
 
 **For Vim...**  
-**------------**
+**------------------**
 
 > $ bash
 
@@ -131,7 +131,7 @@ Repeat the above steps but with the second file in the 'program_executables' fol
 You will change the interpreter in the exact same fashion. 
 
 **For Sublime...**  
-**----------------**
+**----------------------**
 
 >$ bash      
 
@@ -151,7 +151,7 @@ Repeat the above steps but with the second file in the 'program_executables' fol
 
 
 **You can now prepare to run the program by proceeding as follows:**        
-**--------------------------------------------------------------------------**
+**--------------------------------------------------------------------------------------------**
 
 
 (1) First, run the 'PSW_function_library.py' file by executing the following in bash:
@@ -168,7 +168,7 @@ You should receive the following output message:
 ## Usage
 
 **Inputs**  
-**---------**
+**---------------**
 
 When executing this project, there are five key input parameters that you can manipulate via your respective choice of code editor. For a walk-through of how to edit code in the text editors of Sublime & Vim, please refer to the 'Installation' section above. A description of the program inputs and where you can edit them are as follows: 
 
@@ -199,7 +199,7 @@ An image of the location of these input parameters and where they can be changed
 
 
 **Outputs**  
-**----------**
+**----------------**
 
 We can now examine the outputs of the program in more detail, examining their format and physical significance. A description of the program outputs are as follows: 
 
@@ -237,7 +237,7 @@ The above images depicted example outputs for an input of 4 million Kelvin and a
 
 
 **Running The Program**  
-**-------------------------**
+**-------------------------------**
 
 Once you have run the PSW_function_library.py, as instructed in the 'Installation' section of this README, you can execute the following commands in bash (or a corresponding shell) to run the program after changing your input parameters:
 
@@ -246,7 +246,7 @@ Once you have run the PSW_function_library.py, as instructed in the 'Installatio
 Ensure that you are running this either in the  /ParkerSolarWind/executables/ directory, or are adding the filepath of the executable location to your command. Your solar wind output will then appear in the command line, and the graphs will be saved to your specified input directory. 
 
 **Basic Operation Processes**  
-**-------------------------**
+**---------------------------------**
 
 The following numerical methods exist as the foundation of this program, with their purposes described herein: 
 
@@ -279,7 +279,7 @@ The application of this method to the above equation yields a set of angular pos
 The following equations are key to the operation and understanding of the ParkerSolarWind program. We will discuss each equation in the order in which they are used, highlighting both their physical meaning and where they can be found in the PSW_function_library.py. **Note however that none of these functions need to be edited for the operation of the program. Their functionality will only be changed via user input changes, and the discussion of these equations is meant as more of a foundation for the physical implications and inner workings of the program.**
 
 **Equation 1: Critical Radius**  
-**------------------------------**
+**------------------------------------**
 
 ![Critical Radius](readme_figures/critical_radius.png)
 
@@ -287,7 +287,7 @@ The critical radius is defined as the location at which the solar wind makes the
 
 
 **Equation 2: Coronal Sound Speed**  
-**-------------------------------------**
+**----------------------------------------------**
 
 ![Coronal Sound Speed](readme_figures/coronal_sound_speed.png)
 
@@ -296,7 +296,7 @@ The coronal sound speed is defined as the speed a which sound waves travel throu
 
 
 **Equation 3: Parker Model of Solar Wind ODE**  
-**-------------------------------------------------**
+**----------------------------------------------------**
 
 ![PSW ODE 2](readme_figures/psw_ode.png)
 
@@ -307,7 +307,7 @@ The Parker Model of Solar Wind ODE is derived given the radial equation of motio
 
 
 **Equation 4: Parker Spiral Angular Position ODE**  
-**----------------------------------------------------**
+**-------------------------------------------------------**
 
 ![Euler ODE 2](readme_figures/euler_ode.png)
 
@@ -355,13 +355,13 @@ SOFTWARE.
 ## Acknowledgments
 
 **Key Resources**  
-**-----------------**
+**------------------------**
 
 (1) University of Texas, *Parker Model of Solar Wind* (Fitzpatrick 2016) https://farside.ph.utexas.edu/teaching/plasma/Plasma/node90.html 
 
 (2) University of Arizona, *The Parker spiral magnetic field* (Giacalone 2022) https://heliophysics.ucar.edu/sites/default/files/heliophysics/resources/presentations/giacalone-parkerspiral.pdf
 
 **Thanks**  
-**---------**
+**---------------**
 
 Author K. Conder thanks Professor Meridith Joyce for a wonderful semester in PHYS4840!
